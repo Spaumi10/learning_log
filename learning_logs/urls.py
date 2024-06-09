@@ -14,4 +14,10 @@ urlpatterns = [
 
     # Detail page for a single topic.
     re_path(r'^topics/(?P<topic_id>\d+)/$', views.topic, name='topic'),
+
+    # Page for adding a new topic.
+    re_path(r'^new_topic/$', views.new_topic, name='new_topic'),
+
+    # Page for adding a new entry.
+    re_path(r'^new_entry/(?P<topic_id>\d+)/$', views.new_entry, name='new_entry'),
 ]

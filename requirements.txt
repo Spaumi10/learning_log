@@ -14,7 +14,7 @@ matplotlib-inline==0.1.7
 packaging==24.1
 parso==0.8.4
 prompt_toolkit==3.0.47
-psycopg2==2.6.1
+psycopg2==2.9.9
 pure-eval==0.2.2
 Pygments==2.18.0
 six==1.16.0
